@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Existing Bovid Assemblies
 subtitle: What has already been done
 references:

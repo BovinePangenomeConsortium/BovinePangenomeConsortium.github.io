@@ -21,7 +21,7 @@ description: Official news, project objectives and collaborator information for 
 # List of links in the navigation bar
 navbar-links:
   About us: "aboutus"
-  News: "_posts"
+  News: "blog"
   Project: "project"
   People: "people"
   Resources:
