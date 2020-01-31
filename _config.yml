@@ -22,7 +22,11 @@ description: Official news, project objectives and collaborator information for 
 navbar-links:
   About us: "aboutus"
   News: "blog"
-  Project: "project"
+  Project:
+    - Rationale: "rationale"
+    - Technology: "technology"
+    - Steering Committee: "steering"
+    - Data Rights: "rights"
   People: "people"
   Resources:
     - Existing Assemblies: "existingassemblies"
@@ -55,7 +59,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/bgimage.png"
+navbar-img: "/img/navbar.jpg"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
