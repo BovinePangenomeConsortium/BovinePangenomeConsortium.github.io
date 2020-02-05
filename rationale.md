@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Project Rationale
 subtitle: Why we want to do this
 ---
