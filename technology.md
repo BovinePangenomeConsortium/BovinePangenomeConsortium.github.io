@@ -4,7 +4,7 @@ title: Technology and Approach
 subtitle: DNA Sequencing and Assembly
 ---
 
-Initially, the exorbitant cost of whole genome sequencing and reference genome assembly caused many livestock researchers to despair that reference genomes would not be available for their species in their lifetime. Due to incredible advancements in DNA sequencing technology, we are now able to generate reference-quality genome assemblies at a small fraction of the cost and with far less manual editing than in the past. While the process still isn't completely trivial, we are now far better equipped to generate quality genome assemblies at scale due to the following technological improvements:
+The high cost of the human genome project, with 20 year time-line for completion in the year 2000, caused many livestock researchers to despair that reference genomes would not be available for their species in their lifetime. Due to incredible advancements in DNA sequencing technology, we are now able to generate reference-quality genome assemblies at a small fraction of the cost and with far less manual editing than in the past. While the process still isn't completely trivial, we are now far better equipped to generate quality genome assemblies at scale due to the following technological improvements:
 
 ## Longer reads == better genomes
 
