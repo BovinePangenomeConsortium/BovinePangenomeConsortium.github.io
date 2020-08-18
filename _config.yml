@@ -30,7 +30,8 @@ navbar-links:
   People: "people"
   Resources:
     - Existing Assemblies: "existingassemblies"
-    - Cattle Reference Annotation: "http://https://www.ncbi.nlm.nih.gov/assembly/GCF_002263795.1/"
+    - Sample Preparation: "sampleprep"
+    - Cattle Reference Annotation: "https://www.ncbi.nlm.nih.gov/assembly/GCF_002263795.1/"
   Join: "join"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -47,7 +48,7 @@ avatar: "/img/cow_head_short_horns.jpg"
 
 #navbar-col: "#F5F5F5"
 navbar-text-col: "#FFFFFF"
-navbar-children-col: "#F5F5F5"
+navbar-children-col: "#8c8c8c"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
