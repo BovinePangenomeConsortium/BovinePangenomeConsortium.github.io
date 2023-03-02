@@ -4,7 +4,7 @@ title: All about us
 subtitle: Project organization and goals
 ---
 
-The Bovine Pangenome Consortium is an international scientific research collaboration that was designed to organize genome assembly efforts within the [tribe Bovini]([https://en.wikipedia.org/wiki/Bovini]) . Our goals are to provide the sequencing resources and bioinformatics expertise to collaborative groups interested in generating an assembly of their favorite species or breed of Bovini.
+The Bovine Pangenome Consortium is an international scientific research collaboration that was designed to organize genome assembly efforts within the [tribe Bovini]([https://en.wikipedia.org/wiki/Bovini]). Our goals are to provide the sequencing resources and bioinformatics expertise to collaborative groups interested in generating an assembly of their favorite species or breed of Bovini.
 
 The creation of reference-quality genome assemblies based on long-read platforms has recently become sufficiently cost-effective to consider generating at least one example for many of the over 700 existing cattle breeds, and other species in the Bovidae phylogeny. We have applied both [Pacific Biosciences Sequel](https://www.pacb.com/) and [Oxford Nanopore PromethiION](https://nanoporetech.com/) instruments to demonstrate successful high-quality assemblies of several breeds, species, and hybrids.  We pioneered a method to create the highest-quality assemblies, [called trio-binning](https://www.nature.com/articles/nbt.4277), which depends on F1 crosses between breeds and sampling of the parents.  Where possible, this is the most efficient method since one can achieve very high contiguity for two breeds from sequencing reads of the F1.  High quality assemblies, albeit less efficient, can also be generated from individual breeds where creation of F1 and sampling of parents is not feasible or practical.
 
@@ -24,4 +24,4 @@ To facilitate our overall project goals, we will ask your permission to use the 
 
 ### How to Join
 
-We are actively recruiting any interested institutions or investigators. Please contact [Derek M Bickhart](derek.bickhart@usda.gov) or [Ben D Rosen](ben.rosen@usda.gov) for more information or to be added to our mailing list.
+We are actively recruiting any interested institutions or investigators. Please contact [Ben Rosen](ben.rosen@usda.gov), [Wai Yee (Lloyd) Low](wai.low@adelaide.edu.au), or [Joram Mwacharo](joram.mwacharo@sruc.ac.uk) for more information or to be added to our mailing list.
