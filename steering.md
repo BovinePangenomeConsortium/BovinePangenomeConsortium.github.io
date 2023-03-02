@@ -5,11 +5,11 @@ subtitle: Project leaders and organizers
 
 ## BPC Co-Chairs
 
-#### Ben D. Rosen
+#### Ben Rosen
 
-#### Derek M. Bickhart
+#### Wei Yee (Lloyd) Low
 
-#### Tim P.L. Smith
+#### Joram Mwacharo
 
 ## Steering Committee
 
