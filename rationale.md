@@ -30,7 +30,7 @@ In order to track these variable DNA bases, scientists first needed to find out 
 
 However, this also meant that all comparisons of subsequently sequenced cattle would be against a reference to the Hereford breed's genome. Any novel sequence in another breed's genome would be difficult to identify on the map, and likewise, any Hereford-specific DNA would look like a big deletion of sequence. This presents a bigger problem when the DNA from [Zebu cattle subspecies](https://en.wikipedia.org/wiki/Zebu), or other distantly related Bovids, are aligned to the current cattle genome.
 
-It is becoming increasingly clear that -- while Dominette's genome has served us well to this point -- her genome sequence isn't representative of the breadth of diversity of all cattle in the world. A resource that would encompass all of the variation and possible DNA sequence of cattle breeds and bovid species would be termed a [Pan-Genome](https://en.wikipedia.org/wiki/Pan-genome)
+It is becoming increasingly clear that -- while Dominette's genome has served us well to this point -- her genome sequence isn't representative of the breadth of diversity of all cattle in the world. A resource that would encompass all of the variation and possible DNA sequence of cattle breeds and Bovini species would be termed a [Pangenome](https://en.wikipedia.org/wiki/Pan-genome)
 
 ## What Resources are We Looking to Develop?
 
