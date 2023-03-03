@@ -13,3 +13,5 @@ subtitle: Project leaders and organizers
 
 ## Steering Committee
 
+#### Didier Boichard, Amanda Chamberlain, Appolinaire Djikeng, Yu Jiang, Hubert Pausch, Sebastian Demyda-Peyrás, James Prendergast, Robert Schnabel, Tim Smith
+
