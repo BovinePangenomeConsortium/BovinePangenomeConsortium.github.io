@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Bovine Pan-Genome Consortium
+title: The Bovine Pangenome Consortium
 subtitle: The official information page for the consortium and its members
 use-site-title: false
 ---
