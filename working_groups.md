@@ -16,8 +16,8 @@ Recruiting!
 Assembling the sequencing reads into high-quality genomes. We use tools like [merqury](https://github.com/marbl/merqury) and [BUSCO](https://gitlab.com/ezlab/busco) to assess the quality of the genome.
 
 #### Members
-- (Alex Leonard)[https://github.com/ASLeonard]
-- (Ben Rosen)[https://github.com/bdrosen]	
+- [Alex Leonard](https://github.com/ASLeonard)
+- [Ben Rosen](https://github.com/bdrosen)	
 - Recruiting more!
 
 ## Pangenome analysis
