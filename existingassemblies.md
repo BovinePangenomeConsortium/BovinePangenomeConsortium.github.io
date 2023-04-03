@@ -22,16 +22,17 @@ triobinned:
    website: https://www.biorxiv.org/content/10.1101/737171v1.abstract
 ---
 
-Our consortium has not contributed these assemblies, but we benefit greatly by their release. In the interests of not duplicating work, we consider the reassembly of these species/breeds to be very low priority.
 
-## Reference Genome Assemblies
+## Completed assemblies
 
-These are the current reference genomes available to the public.
+- Example 1
+- Example 2
 
-{% include list-circles.html items=page.references %}
+## Ongoing efforts
 
-## Haplotype-Resolved Assemblies
+Please contact one of us to add your proposed assemblies to the list.
 
-These references were published using the [trio-binning](https://www.nature.com/articles/nbt.4277) method.
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRYt_ZLauqHTSUWOSJ1_Lct6SQkaOiWDdLb6wtwaJt2gfJ6od_ynVV-DTfyhXq3Qmy7VBLBKFgRPm8M/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-{% include list-circles.html items=page.triobinned %}
+
+
