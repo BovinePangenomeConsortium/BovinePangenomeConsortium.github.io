@@ -32,7 +32,8 @@ triobinned:
 
 Please contact one of us to add your proposed assemblies to the list.
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRYt_ZLauqHTSUWOSJ1_Lct6SQkaOiWDdLb6wtwaJt2gfJ6od_ynVV-DTfyhXq3Qmy7VBLBKFgRPm8M/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
+<div style="position: relative; padding-bottom: 33.75%; padding-top: 0px; overflow: hidden; width: 60%; height: 60%; left: 20%; right: 20%;">
+<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRYt_ZLauqHTSUWOSJ1_Lct6SQkaOiWDdLb6wtwaJt2gfJ6od_ynVV-DTfyhXq3Qmy7VBLBKFgRPm8M/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" ></iframe>
+</div>
 
 

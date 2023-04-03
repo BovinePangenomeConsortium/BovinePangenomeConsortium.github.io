@@ -9,4 +9,3 @@ The Bovine Pangenome Consortium is an international research consortium dedicate
 
 
 ![Bovine pangenome](./img/BPC_diagram.svg)
-<img src="./img/BPC_diagram.svg">
