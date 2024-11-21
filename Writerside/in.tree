@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Instance Name" start-page="README.md">
+
+    <toc-element topic="README.md"/>
+    <toc-element toc-title="Writerside">
+        <toc-element toc-title="topics">
+            <toc-element topic="All-about-us.md"/>
+            <toc-element topic="Data-Rights.md"/>
+            <toc-element topic="News-and-Publications.md"/>
+            <toc-element topic="Rationale.md"/>
+            <toc-element topic="Technology.md"/>
+            <toc-element topic="How-To-Join.md"/>
+            <toc-element topic="Data-Ownership.md"/>
+            <toc-element topic="Steering-Committee.md"/>
+            <toc-element topic="Workflows.md"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>
