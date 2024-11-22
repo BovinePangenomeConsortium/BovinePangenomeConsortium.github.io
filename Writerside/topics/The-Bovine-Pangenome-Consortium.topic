@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Home" id="The-Bovine-Pangenome-Consortium">
+
+<!--    A section combines multiple topics dedicated to a specific subject.
+            Add a starting page to provide an overview of the topics in the section.
+            Start with two topics you want to promote in the <spotlight> group,
+            several important topics in the <primary> group (for example, where to start),
+            several less important topics in the <secondary> group (for example, more advanced topics),
+            and optionally add any other relevant topics in the <misc> group as cards and lists of links
+            (maybe related topics from other sections).
+            Only the spotlight section is limited to two topics.
+            For other groups, try to keep the number between 2 and 6, but you can add more if necessary.-->
+
+    <title instance="b">Bovine Pan-Genome Consortium</title>
+    <section-starting-page>
+        <title>The Bovine Pangenome Consortium</title>
+        <description>
+            The official information page for the consortium and its members.
+        </description>
+
+        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="News-and-Publications.md" type="library" summary="BPC affiliated publications">News and Publications</a>
+            <a href="How-To-Join.md" type="mail" summary="Get in contact with members">Contact Us</a>
+        </spotlight>
+
+        <!--    Add several topics that are most important for this section.    -->
+        <primary>
+            <title>The Project</title>
+            <a href="Rationale.md" summary="Why are we doing this"/>
+            <a href="Technology.md" summary="Tech used by this consortium"/>
+            <a href="Steering-Committee.md" summary="Main people driving the consortium">Steering Committee</a>
+            <a href="Data-Rights.md" summary="Contributors' rights and responsibilities">Data Rights</a>
+        </primary>
+
+        <!--    Add several topics that are less important or are relevant only for advanced/experienced users.    -->
+        <secondary>
+            <title>Useful Information</title>
+            <a href="All-about-us.md" summary="Project Overview and Goals">All About Us</a>
+            <a href="Data-Ownership.md" summary="Please have a read if you plan on submitting samples."/>
+            <a href="Workflows.md" summary="List of workflows used by the BPC"/>
+            <a href="How-To-Join.md" summary="Join the Bovine Pangenome Consortium">Join Us</a>
+        </secondary>
+    </section-starting-page>
+
+</topic>
