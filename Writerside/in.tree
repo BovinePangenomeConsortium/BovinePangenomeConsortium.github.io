@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="The Bovine Pangenome Consortium" start-page="The-Bovine-Pangenome-Consortium.topic">
+
+    <toc-element topic="The-Bovine-Pangenome-Consortium.topic"/>
+    <toc-element topic="All-about-us.md"/>
+    <toc-element topic="Data-Rights.md"/>
+    <toc-element topic="News-and-Publications.md"/>
+    <toc-element topic="Rationale.md"/>
+    <toc-element topic="Technology.md"/>
+    <toc-element topic="How-To-Join.md"/>
+    <toc-element topic="Data-Ownership.md"/>
+    <toc-element topic="Steering-Committee.md"/>
+    <toc-element topic="Workflows.md"/>
+
+    <toc-element toc-title="Best Practices and Standards">
+        <toc-element topic="Assembly-naming-scheme.md"/>
+    </toc-element>
+
+
+</instance-profile>
