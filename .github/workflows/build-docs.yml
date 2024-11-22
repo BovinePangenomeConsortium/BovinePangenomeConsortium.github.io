@@ -1,8 +1,10 @@
 name: Build documentation
 
 on:
-  push:
-    branches: ["main"]
+#  push:
+#    branches: ["main"]
+  pull_request:
+    branches: ["add_demo"]
   workflow_dispatch:
 
 permissions:
