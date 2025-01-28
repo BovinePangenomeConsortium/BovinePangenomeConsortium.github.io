@@ -1,5 +1,6 @@
 const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRPpPEMhMb0ze6VNLahAgrkP225up-FEZl01dLiN4Dj6kEUh3jEo_4u6PLd9-4ffDJOQR7mS6RgRO5N/pub?gid=481055528&single=true&output=csv"
-
+const csvUrl2 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRPpPEMhMb0ze6VNLahAgrkP225up-FEZl01dLiN4Dj6kEUh3jEo_4u6PLd9-4ffDJOQR7mS6RgRO5N/pub?gid=7259390&single=true&output=csv";
+   
 // The svg
 
 const element = d3.select('#map');
@@ -32,6 +33,10 @@ const path = d3.geoPath();
 let data = new Map()
 
 var getMax1 = function (someMap) {
+      console.log(typeof someMap);
+      let arr = Object.values(someMap);
+      let max = Math.max(...arr);
+      return max
       var maxValue;
       for (var [key, value] of someMap) {
          maxValue = (!maxValue || maxValue < value) ? value : maxValue;
@@ -46,14 +51,22 @@ const tooltip = d3.select("body").append("div")
 // Load external data and boot
 Promise.all([
 d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-d3.csv(csvUrl, function(d) {
-    data.set(d.country, +d.count)
-})
+//d3.csv(csvUrl, function(d) {
+//    data.set(d.country, +d.count)
+//})
+d3.csv(csvUrl2).then(data => {
+  
+  countryCounts = data.reduce((acc, d) => {
+      acc[d.Global_region] = (acc[d.Global_region] || 0) + 1;
+      return acc;
+  }, {})})
 ]).then(function(loadData){
-    let topo = loadData[0]
+    let topo = loadData[0];
+    console.log(countryCounts);
+
 
 var colorScale = d3.scaleSqrt()
-  .domain([0,getMax1(data)])
+  .domain([0,getMax1(countryCounts)])
   .range([0,1]);
 
 const projection = d3.geoEquirectangular()
@@ -96,7 +109,7 @@ const projection = d3.geoEquirectangular()
       )
       // set the color of each country
       .attr("fill", function (d) {
-        d.total = data.get(d.properties.name) || 0;
+        d.total = countryCounts[d.properties.name] || 0;
         return d3.interpolateInferno(colorScale(d.total));
       })
       .style("stroke", "transparent")
