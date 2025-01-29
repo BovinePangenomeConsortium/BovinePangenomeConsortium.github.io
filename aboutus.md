@@ -24,4 +24,4 @@ To facilitate our overall project goals, we will ask your permission to use the 
 
 ### How to Join
 
-We are actively recruiting any interested institutions or investigators. Please contact [Ben Rosen](ben.rosen@usda.gov), [Wai Yee (Lloyd) Low](wai.low@adelaide.edu.au), or [Joram Mwacharo](joram.mwacharo@sruc.ac.uk) for more information or to be added to our mailing list.
+We are actively recruiting any interested institutions or investigators. Please contact [Ben Rosen](ben.rosen@usda.gov) or [Wai Yee (Lloyd) Low](wai.low@adelaide.edu.au) for more information or to be added to our mailing list.

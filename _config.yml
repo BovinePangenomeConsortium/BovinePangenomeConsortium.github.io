@@ -22,20 +22,22 @@ author: The Bovine Pangenome Consortium
 navbar-links:
   About us: "aboutus"
   News: "updates"
+  Data: "contributed_assemblies"
+  FAQs: "FAQs"
   Project:
     - Rationale: "rationale"
     - Technology: "technology"
     - Steering Committee: "steering"
     - Working Groups: "working_groups"
     - Data Rights: "rights"
-    - Cool: "test"
-    - Wool: "assemblies"
-  People: "people"
+    - People: "people"
+    - Publications: "publications"
+    - Workflows: "workflows"
+    - Join: "join"
   Resources:
     - Existing Assemblies: "existingassemblies"
     - Sample Preparation: "sampleprep"
     - Cattle Reference Annotation: "https://www.ncbi.nlm.nih.gov/assembly/GCF_002263795.1/"
-  Join: "join"
 
 ################
 # --- Logo --- #
@@ -128,7 +130,7 @@ feed_show_tags: true
 #post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -136,7 +138,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "bovine,pangenome,consortium,BPC,genomics,cattle"
 
 ######################################
 # --- Colours / background image --- #
@@ -147,7 +149,7 @@ navbar-var-length: false
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
-hover-col: "#E9EFF7"
+hover-col: "#B7352D"
 navbar-col: "#3395AB"
 navbar-text-col: "#404040"
 navbar-border-col: "#007894"
@@ -303,6 +305,7 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - beautiful-jekyll-theme.gemspec
 
 plugins:
 #  - jekyll-paginate

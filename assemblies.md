@@ -11,6 +11,6 @@ css: "/assets/css/d3.css"
 
 Test text
 
-<div id="chart"></div>
+<div class="chart" id="chart"></div>
 
 and end of cahrt

@@ -6,7 +6,13 @@
   border: 5px outset red;
   background-color: lightblue;
 }
-
+.chart {
+  width: 800px; 
+  height: 400px;
+  margin: auto;
+  border: 5px outset red;
+  background-color: lightblue;
+}
 body {
   font-family: Arial, sans-serif;
 }
