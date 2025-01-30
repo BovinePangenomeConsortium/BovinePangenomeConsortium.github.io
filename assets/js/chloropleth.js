@@ -1,5 +1,57 @@
 const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRPpPEMhMb0ze6VNLahAgrkP225up-FEZl01dLiN4Dj6kEUh3jEo_4u6PLd9-4ffDJOQR7mS6RgRO5N/pub?gid=7259390&single=true&output=csv";
    
+
+function colorbar(scale, width, height) {
+
+    var tickValues = scale.domain(),
+        axisGroup = null;
+    var linearScale = d3.scaleLinear()
+        .domain(scale.domain())
+        .range([0, width ]);
+    var barThickness = height;
+    var barRange =  width;
+
+    function colorbar(context) {
+        // The finer, the more continuous it looks
+        var dL = 1;
+        var nBars = Math.floor(barRange / dL);
+        var barData = [];
+        var trueDL = barRange * 1. / nBars;
+        for (var i = 0; i < nBars; i++) {
+            barData.push(i/nBars);
+        }
+
+        var interScale = d3.scaleLinear()
+            .domain([0, barRange])
+            .range(scale.range());
+
+        var bars = context.selectAll("rect")
+            .data(barData)
+            .enter()
+            .append("rect")
+            .attr("x", function(d,i) { return 20 + i;})
+            .attr("y", 250)
+            .attr("width", trueDL)
+            .attr("height", barThickness)
+            .style("stroke-width", "0px")
+            .style("fill", function (d, i) {
+                return d3.interpolateInferno(d)
+            });
+
+        var myAxis = d3.axisBottom(linearScale);
+        if (tickValues == null) tickValues = myAxis.tickValues();
+        else myAxis.tickValues(tickValues);
+        axisGroup = context.append("g")
+            .attr("class", "colorbar axis")
+            .attr("transform", "translate(20,"+(250+barThickness)+")").call(myAxis).selectAll(".tick").data(tickValues);
+    }
+    colorbar.tickValues = function (_) {
+        return arguments.length ? (tickValues = _, colorbar) : tickValues;
+    };
+    return colorbar;
+}
+
+
 // The svg
 const element = d3.select('#map');
 const width = element.node().clientWidth;
@@ -110,12 +162,14 @@ const drawMap = (svg, topo, colorFeature, projection, colorScale) => {
             .style("top", (event.pageY - 28) + "px");
       d3.selectAll(".Country").call(setCountryStyle, 0.2, null, null);
       d3.select(event.target).call(setCountryStyle, 1, "1", "black");
-
       })
       .on("mouseleave", (event, d) => {
         tooltip.transition().duration(200).style("opacity", 0);
         d3.selectAll(".Country").call(setCountryStyle, 0.8, null, null);
       }) 
+      var cb = colorbar(colorScale, 150,10);
+      svg.append("g")
+        .call(cb);
 }
 updateVisualization(dataOptions[0]);
 })

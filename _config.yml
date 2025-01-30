@@ -20,24 +20,19 @@ author: The Bovine Pangenome Consortium
 ###############################################
 
 navbar-links:
-  About us: "aboutus"
   News: "updates"
-  Data: "contributed_assemblies"
-  FAQs: "FAQs"
-  Project:
-    - Rationale: "rationale"
-    - Technology: "technology"
-    - Steering Committee: "steering"
-    - Working Groups: "working_groups"
-    - Data Rights: "rights"
+  About the BPC:
+    - Our goal: "aboutus"
     - People: "people"
     - Publications: "publications"
-    - Workflows: "workflows"
     - Join: "join"
   Resources:
-    - Existing Assemblies: "existingassemblies"
-    - Sample Preparation: "sampleprep"
-    - Cattle Reference Annotation: "https://www.ncbi.nlm.nih.gov/assembly/GCF_002263795.1/"
+    - Contributed assemblies: "contributed_assemblies"
+    - Workflows: "workflows"
+    - Outreach: "outreach"
+    #- Sample Preparation: "sampleprep"
+    #- Cattle Reference Annotation: "https://www.ncbi.nlm.nih.gov/assembly/GCF_002263795.1/"
+  FAQs: "FAQs"
 
 ################
 # --- Logo --- #
@@ -67,6 +62,7 @@ social-network-links:
   #rss: true  # remove this line if you don't want to show an RSS link at the bottom
   #facebook: deanattali
   github: BovinePangenomeConsortium
+  bluesky: icyhawaiian.bsky.social
   #twitter: daattali
   #patreon: DeanAttali
   #youtube: "@daattali"
@@ -86,7 +82,6 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-#  bluesky: yourname
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
@@ -98,7 +93,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+#rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #

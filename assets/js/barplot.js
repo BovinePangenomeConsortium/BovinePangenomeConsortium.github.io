@@ -1,5 +1,5 @@
 //const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRPpPEMhMb0ze6VNLahAgrkP225up-FEZl01dLiN4Dj6kEUh3jEo_4u6PLd9-4ffDJOQR7mS6RgRO5N/pub?gid=7259390&single=true&output=csv";
-{
+{ //scoping this seems to solve the duplicate variable name issue with chloropleth.js
 // Set dimensions and margins for the chart
 const margin = { top: 20, right: 30, bottom: 100, left: 60 };
 const element = d3.select('#chart');
@@ -84,7 +84,7 @@ svg.selectAll(".bar")
 
         svg.selectAll("g.tick text")
             .style("opacity", b => b === d.breed ? 1 : 0.15)
-            .style("font-size", b => b === d.breed ? "24px" : "12px");
+            .style("font-size", b => b === d.breed ? "15px" : "6px");
     })
     .on("mouseout", () => {
         tooltip.transition().duration(500).style("opacity", 0);
@@ -95,7 +95,7 @@ svg.selectAll(".bar")
 
     svg.selectAll("g.tick text")
         .style("opacity", 1)
-        .style("font-size", "12px");
+        .style("font-size", "6px");
     });
     // Add axis labels
     svg.append("text")
