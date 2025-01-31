@@ -59,8 +59,8 @@ const height = element.node().clientHeight;
 
 const svg = element
   .append("svg")
-  .style("width", width)
-  .style("height", height);
+  .attr("width", width)
+  .attr("height", height);
 
 // Map and projection
 const path = d3.geoPath();
