@@ -1,5 +1,4 @@
-const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRPpPEMhMb0ze6VNLahAgrkP225up-FEZl01dLiN4Dj6kEUh3jEo_4u6PLd9-4ffDJOQR7mS6RgRO5N/pub?gid=7259390&single=true&output=csv";
-   
+const csvUrl = "/assets/data/BPC.csv" //https://docs.google.com/spreadsheets/d/e/2PACX-1vRPpPEMhMb0ze6VNLahAgrkP225up-FEZl01dLiN4Dj6kEUh3jEo_4u6PLd9-4ffDJOQR7mS6RgRO5N/pub?gid=7259390&single=true&output=csv"
 
 function colorbar(scale, width, height) {
 
@@ -76,19 +75,26 @@ const tooltip = d3.select("body").append("div")
 
 // Load external data and boot
 Promise.all([
-d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
+//d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
+d3.json("/assets/data/world.geojson"),
 d3.csv(csvUrl).then(data => {
-  
+  console.log(data);
   countryCounts = data.reduce((acc, d) => {
-    acc[d['Global region']] = (acc[d['Global region']] || 0) + 1;
+    if (d['Global region']) {
+    	acc[d['Global region']] = (acc[d['Global region']] || 0) + 1;
+    }
     return acc;
   }, {});
   countryCounts2 = data.reduce((acc, d) => {
-  acc[d.Origin] = (acc[d.Origin] || 0) + 1;
-  return acc;
+    if(d['Sample origin']) {
+      acc[d['Sample origin']] = (acc[d['Sample origin']] || 0) + 1;
+    }
+    return acc;
   }, {});
   countryCounts3 = data.reduce((acc, d) => {
-    acc[d.Contributor_origin] = (acc[d.Origin] || 0) + 1;
+    if (d['Contributor location']) {
+      acc[d['Contributor location']] = (acc[d['Contributor location']] || 0) + 1;
+    }
     return acc;
 }, {});
 })
