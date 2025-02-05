@@ -1,5 +1,5 @@
-const csvUrl = window.location.hostname=="localhost" ? "/assets/data/BPC.csv" : "/BovinePangenome.github.io/assets/data/BPC.csv"
-const jsonUrl = window.location.hostname=="localhost" ? "/assets/data/world.geojson" : "/BovinePangenome.github.io/assets/data/world.geojson" 
+const csvUrl = window.location.hostname=="localhost" ? "/assets/data/BPC.csv" : "/assets/data/BPC.csv"
+const jsonUrl = window.location.hostname=="localhost" ? "/assets/data/world.geojson" : "/assets/data/world.geojson" 
 
 function colorbar(scale, width, height) {
 
