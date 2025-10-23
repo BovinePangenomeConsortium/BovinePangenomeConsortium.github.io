@@ -7,7 +7,7 @@ subtitle: Project teams and members
 
  - [Ben Rosen](https://scholar.google.com/citations?user=dScyP9gAAAAJ)
  - [Tim Smith](https://scholar.google.com/citations?user=QUbbwq8AAAAJ)
- - [Wei Yee (Lloyd) Low](https://scholar.google.com/citations?user=akFEIA4AAAAJ)
+ - [Wai Yee (Lloyd) Low](https://scholar.google.com/citations?user=akFEIA4AAAAJ)
  - [Alexander Leonard](https://scholar.google.com/citations?user=S0ZgddkAAAAJ&hl)
 
 ### Steering Committee
